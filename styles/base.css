@@ -1,27 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Julius+Sans+One&display=swap');
 
 body{
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.3rem;
     text-align: center;
+    max-width: fit-content;
 }
 header{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: #55868C;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     padding: 20px;
 }
 header img{
     border-radius: 5px;
     box-shadow: 10px 10px 5px black;
 }
+h1, h2, h3{
+    font-family: 'Julius Sans One', sans-serif;
+}
+h1{
+    font-size: 2em;
+}
 h3{
     font-size: 1.5rem;
 }
 ul{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5px;
     list-style-type: none;
     text-align: center;

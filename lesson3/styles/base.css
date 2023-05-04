@@ -10,11 +10,19 @@ header{
     background-color: rgba(249, 215, 171, 0.543);
     padding: 30px 0 0;
 }
+nav{
+    display: flex;
+    flex-direction: column;
+}
+nav div{
+    flex: 1 1 auto;
+}
 nav a{
     text-decoration: none;
     color: black;
     padding: 15px;
     display: block;
+    font-size: 0.9rem;
 }
 nav a:hover{
     background-color: burlywood;

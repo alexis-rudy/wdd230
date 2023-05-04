@@ -31,6 +31,40 @@ p{
     text-align: justify;
     margin: 15px 30px;
 }
+.color table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.color th{
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+td{
+    padding: 10px
+}
+.color1{
+    background-color: #1F5F5B;
+}
+.color2{
+    background-color: #06373A;
+}
+.color3{
+    background-color: #CECECE;
+}
+.color4{
+    background-color: #E8E9F3;
+}
+.exampleh{
+    font-family: 'Poppins', sans-serif;
+}
+.exampleh h2{
+    font-size: 1.5em;
+}
+.example{
+    font-family: 'PT Sans', sans-serif;
+}
 footer{
     padding: 30px;
 }

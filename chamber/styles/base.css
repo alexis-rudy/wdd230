@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300&display=swap');
+
+/*overall body formatting*/
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: darkblue;
+    background-color: cornflowerblue;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #CECECE;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+/*hp specfic formatting*/
+header img{
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+header .small{
+    font-size: 3rem;
+    padding: 0;
+    margin: auto 0;
+}
+header .big{
+    display: none;
+}
+header .city{
+    color: #CECECE;
+}
+header .left{
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main div{
+    width: 95%;
+    margin: 2vw auto;
+    height: 50vw;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    background-color: #CECECE;
+    border-radius: 2% 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main .spotlights{
+    overflow: auto;
+    /* height: 100%; */
+}
+main .spotlights::-webkit-scrollbar{
+    display: none;
+}
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #CECECE;
+}

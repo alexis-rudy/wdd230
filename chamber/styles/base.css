@@ -39,6 +39,50 @@ header .left{
     margin-left: auto;
     font-size: 1.5rem;
 }
+nav #hamburgerBtn{
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+}
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 1rem;
+    border-left: 4px solid rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+nav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li.active {
+    background-color: #CECECE;
+}
+nav ul li.active a{
+    color: darkblue;
+}
+#primaryNav.open{
+    display: block;
+}
+nav ul li{
+    display: none;
+}
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+header div.date{
+    display: block;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -52,6 +96,12 @@ main div{
     background-color: #CECECE;
     border-radius: 2% 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main .date{
+    height: fit-content;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 main .spotlights{
     overflow: auto;

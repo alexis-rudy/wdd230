@@ -2,7 +2,7 @@
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10vh 1fr 1fr 1fr;
 }
 .small{
     display: none;
@@ -10,25 +10,29 @@ main{
 header .big{
     display: block;
 }
-.hero{
+.date{
     grid-column: 1/3;
     grid-row: 1;
 }
-.event{
-    grid-column: 1/2;
-    grid-row: 5;
-}
-.weather{
-    grid-column: 2/3;
-    grid-row: 5;
-}
-.newsRelease{
+.hero{
     grid-column: 1/3;
     grid-row: 2;
 }
-.spotlights{
+.event{
+    grid-column: 1/2;
+    grid-row: 6;
+}
+.weather{
+    grid-column: 2/3;
+    grid-row: 6;
+}
+.newsRelease{
     grid-column: 1/3;
     grid-row: 3;
+}
+.spotlights{
+    grid-column: 1/3;
+    grid-row: 4;
     overflow: hidden;
 }
 .spotlights div{
@@ -41,7 +45,19 @@ header .big{
 .join{
     display: block;
     grid-column: 1/3;
-    grid-row: 4;
+    grid-row: 5;
 }
-
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer img{
+    grid-column: 1/2;
+}
+footer .footerTop{
+    grid-column: 2/3;
+}
+footer .footerTop .footerLeft{
+    grid-column: 3/4;
+}
 }

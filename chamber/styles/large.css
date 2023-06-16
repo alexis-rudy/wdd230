@@ -1,5 +1,9 @@
 @media only screen and (min-width: 64rem) {
-nav button{
+header{
+    /* margin-top: 2vh; */
+    padding-top: 1vh;
+}
+    nav button{
     display: none;
 }
     nav ul li{
@@ -8,17 +12,27 @@ nav button{
 }
 main{
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 10vh 1fr 1fr 1fr;
-    margin: 0 2vw;
+    grid-template-rows: 10vh 1fr 70vh;
+    margin: 2% 5vw;
 }
 .date{
     grid-column: 1/4;
-    grid-row: 1;
-    
+    grid-row: 1;  
 }
 .hero{
     grid-column: 2/3;
     grid-row: 2/4;
+}
+.hero img{
+    height: 73vh;
+}
+main .hero h3{
+    top: 30%
+}
+.joinBtn{
+    top: 85%;
+    left: 60%;
+    width: fit-content;
 }
 .event{
     grid-column: 1/2;
@@ -29,16 +43,18 @@ main{
     grid-row: 3/4;
 }
 .newsRelease{
-    grid-column: 2/4;
-    grid-row: 3/4;
+    grid-column: 2/3;
+    grid-row: 3;
 }
 .spotlights{
     grid-column: 3/4;
-    grid-row: 2/4;
+    grid-row: 2/5;
     /* height: 100vh; */
+    height: 100vh;
+    overflow: initial;
 }
 .join{
-    grid-column: 1/4;
-    grid-row: 4;
+    grid-column: 3;
+    grid-row: 3;
 }
 }

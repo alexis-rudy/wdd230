@@ -36,7 +36,27 @@
         </nav>
     </header>
     <main>
-        <form method="get" action="thank.html"></form>
+        <form method="get" action="thank.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label>Email*<input type="email" name="email" placeholder="example@email.com" required></label>
+                <label>Business Position<input type="text" name="postion" pattern="[A-Za-z\-\s].{7,}"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label>Business Name* <input type="text" required></label>
+                <div>Membership Level</div>
+                <label><input type="radio" name="Membership" value="NP">Non-Profit</label>
+                <label><input type="radio" name="Membership" value="bronze">Bronze</label>
+                <label><input type="radio" name="Membership" value="silver">Silver</label><label><input type="radio" name="Membership" value="gold">Gold</label>
+                <label>Business Description <textarea name="buisnessDescription" rows="5"></textarea></label>
+            </fieldset>
+            <input type="hidden" id="loaded" name="loaded">
+            <input type="submit" value="Join the Commerce">
+        </form>
 
     </main>
     <footer>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+main{
+    font-family: 'Lustria', serif;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Lustria', serif;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.1rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 5px;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.5);
+    border: 2px solid rgb(58, 119, 99);
+    border-radius: 5px;
+    margin: 3vh;
+    padding-bottom: 15px;
+}
+section{
+    
+}
+img{
+    box-shadow: 10px 5px 10px;
+}
+footer{
+    font-family: 'Lustria', serif;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 0;
+}

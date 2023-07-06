@@ -1,0 +1,85 @@
+{
+    "companies" :
+[
+    {
+        "name": "Heat Up Pottery",
+        "address": "952 Haul Road, Nampa, ID 83686",
+        "number": "208-896-7857",
+        "website": "https://hupottery.com",
+        "logo": "" ,
+        "membership": "Bronze"
+    },
+    {
+        "name": "Lockman and von Windler",
+        "address": "2220 Young Road, Nampa, ID 83651",
+        "number": "208-461-2748",
+        "website": "https://lockman.windler.com",
+        "logo": "",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Long Last Craft",
+        "address": "1958 Feathers Hooves Drive, Nampa, ID 83651",
+        "number": "760-364-6220",
+        "website": "https://long-last-craft.com",
+        "logo": "",
+        "membership": "Silver"
+    },
+    {
+        "name": "Hearty Home Décor",
+        "address": "524 Maple Avenue, Nampa, ID 83651",
+        "number": "208-831-9079",
+        "website": "https://hhd.com",
+        "logo": "",
+        "membership": "Gold"
+    },
+    {
+        "name": "Wayne Enterprises",
+        "address": "4374 McVaney Road, Nampa, ID 83651",
+        "number": "208-896-7857",
+        "website": "https://wayne-enterprises.com",
+        "logo": "",
+        "membership": "Silver"
+    },
+    {
+        "name": "See You Latte",
+        "address": "4957 Bruce Street, Nampa, ID 83651",
+        "number": "208-527-1007",
+        "website": "https://leeyoulatte.com",
+        "logo": "",
+        "membership": "Gold"
+    },
+    {
+        "name": "Sofa So Good",
+        "address": "4979 Shinn Avenue, Nampa, ID 83651",
+        "number": "208-662-0704",
+        "website": "https://sofasogood.org",
+        "logo": "",
+        "membership": "Silver"
+    }, 
+    {
+        "name": "Eclipse Rises Builders",
+        "address": "1213 Lowndes Hill Park Road, Nampa, ID 83651",
+        "number": "208-533-8795",
+        "website": "https://eclipsebuilders.com",
+        "logo": "",
+        "membership": "Gold"
+    },
+    {
+        "name": "Oceans Clean Up",
+        "address": "3966 Sugarfoot Lane, Nampa, ID 83651",
+        "number": "208-644-9961",
+        "website": "https://ocu.com",
+        "logo": "",
+        "membership": "Non-Profit"
+    },
+    {
+        "name": "Desktop Technologies",
+        "address": "4078 Rhapsody Street, Nampa, ID 83651",
+        "number": "208-444-3971",
+        "website": "https://desktop-tech.org",
+        "logo": "",
+        "membership": "Bronze"
+    }
+]
+}

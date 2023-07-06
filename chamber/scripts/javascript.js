@@ -13,7 +13,7 @@ let longDate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(date
 let year = date.getFullYear();
 
 document.getElementById("fullDate").textContent = longDate;
-document.getElementById("year").textContent = year;
+document.getElementById("year1").textContent = year;
 
 //JS for modified elements
 let lastMod = document.lastModified;
